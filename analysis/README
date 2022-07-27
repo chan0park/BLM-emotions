@@ -1,0 +1,1 @@
+This directory contains the primary code used for analysis. It assumes the existence of data caches (raw data and emotion-labeled tweets)
