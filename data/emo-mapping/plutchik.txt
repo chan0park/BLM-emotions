@@ -1,0 +1,8 @@
+disapproval
+aggressiveness
+optimism
+remorse
+love
+awe
+contempt
+submission

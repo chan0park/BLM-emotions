@@ -10,13 +10,13 @@ CACHE_PATH = ""
 # load_filtered_tweets.py
 # The function load_filtered_tweets/get_date_from_filepath can be editted according to file naming convention
 # BLM_TWEETS = ""
-BLM_TWEETS = "/usr1/home/anjalief/blm_2020/data/*-original.pkl" # this drops the \#NeverForget1984 tweets
+BLM_TWEETS = "data/*-original.pkl" # this drops the \#NeverForget1984 tweets
 
 
 # Path to cached outputs of emotion style (ekman emotions). Format is expected to be a dict of {tweet_id:[emotions in tweet]}, e.g.
 # {1:['anger','disgust']} saved using pickle
 # EMOTION_PATH = ""
-EMOTION_PATH = "/usr1/home/chanyoun/blm-2020/res/tid_emotions/tid_emotions_binary_wfear_new.pkl" # Includes fear
+EMOTION_PATH = "res/tid_emotions/tid_emotions_binary_wfear_new.pkl" # Includes fear
 
 
 # Path to cached user location strs. Formated is expected to be {user_id:"user-populated location string"} saved using .pkl.gz
