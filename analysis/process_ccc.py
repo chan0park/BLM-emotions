@@ -6,12 +6,13 @@ matplotlib.use('Agg')
 from matplotlib import pyplot
 from process_safegraph_data import load_census_blocks, load_state_names, load_city_population
 import numpy as np
-
+from config import EXTRA_DATA_DIR
+import os
 
 SIZE_KEY = "size_high"
 # SIZE_KEY = "size_low"
 
-CCC_DATA = "./crowd-counting-consortium/ccc_compiled.csv"
+CCC_DATA = os.path.join(EXTRA_DATA_DIR, "ccc_compiled.csv")
 KEEP_ISSUES = [' racism', 'policing', ' policing', 'racism', ' criminal justice', 'criminal justice']
 
 def str_to_date(d):
